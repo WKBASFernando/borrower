@@ -11,6 +11,7 @@ import { db } from "../../firebaseConfig";
 import { Colors } from "../../constants/Theme";
 import { BorrowCard } from "../../components/BorrowCard";
 import { Ionicons } from "@expo/vector-icons"; // Part of Expo
+import { router } from "expo-router";
 
 export default function HomeScreen() {
   const [items, setItems] = useState([]);
@@ -40,9 +41,7 @@ export default function HomeScreen() {
 
       <TouchableOpacity
         style={styles.fab}
-        onPress={() => {
-          /* Trigger Add Modal or Navigation */
-        }}
+        onPress={() => router.push("/add-item")}
       >
         <Ionicons name="add" size={32} color="black" />
       </TouchableOpacity>
