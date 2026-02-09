@@ -24,7 +24,8 @@
         {
           "locationAlwaysPermission": "Allow Borrower to save where you lent items."
         }
-      ]
+      ],
+      "expo-router"
     ],
     "ios": {
       "supportsTablet": true
