@@ -12,6 +12,20 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow Borrower to take photos of friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysPermission": "Allow Borrower to save where you lent items."
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
