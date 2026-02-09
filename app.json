@@ -13,6 +13,7 @@
       "backgroundColor": "#ffffff"
     },
     "plugins": [
+      "expo-router",
       [
         "expo-image-picker",
         {
@@ -24,8 +25,7 @@
         {
           "locationAlwaysPermission": "Allow Borrower to save where you lent items."
         }
-      ],
-      "expo-router"
+      ]
     ],
     "ios": {
       "supportsTablet": true
