@@ -10,7 +10,7 @@ import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 import { db } from "../../firebaseConfig";
 import { Colors } from "../../constants/Theme";
 import { BorrowCard } from "../../components/BorrowCard";
-import { Ionicons } from "@expo/vector-icons"; // Part of Expo
+import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 
 export default function HomeScreen() {
@@ -73,8 +73,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     elevation: 10,
-    shadowColor: Colors.primary,
-    shadowRadius: 10,
-    shadowOpacity: 0.5,
   },
 });
